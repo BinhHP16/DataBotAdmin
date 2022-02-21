@@ -25,7 +25,7 @@ public class ThongTinTuyenDungEntity {
     @Column(name = "tieu_de")
     private String tieuDe;
 
-    @Column(name = "noi_dung")
+    @Column(name = "noi_dung",columnDefinition = "TEXT")
     private String noiDung;
 
 
